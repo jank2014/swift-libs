@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A946FD841C839515008683E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A946FD831C839515008683E2 /* AppDelegate.swift */; };
+		A946FD861C839515008683E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A946FD851C839515008683E2 /* ViewController.swift */; };
+		A946FD891C839515008683E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A946FD871C839515008683E2 /* Main.storyboard */; };
+		A946FD8B1C839515008683E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A946FD8A1C839515008683E2 /* Assets.xcassets */; };
+		A946FD8E1C839515008683E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A946FD8C1C839515008683E2 /* LaunchScreen.storyboard */; };
+		A946FD961C839563008683E2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A946FD951C839563008683E2 /* Podfile */; };
+		A946FD9C1C83BB95008683E2 /* FAIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A946FD9B1C83BB95008683E2 /* FAIcon.swift */; };
+		A946FD9E1C83BB9D008683E2 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A946FD9D1C83BB9D008683E2 /* FontAwesome.ttf */; };
+		C1AD52B80C1502C96FF04862 /* Pods_Font_Awesome_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3240CAE20CB2B11E1098BE3A /* Pods_Font_Awesome_Swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3240CAE20CB2B11E1098BE3A /* Pods_Font_Awesome_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Font_Awesome_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A946FD801C839515008683E2 /* Font Awesome Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Font Awesome Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A946FD831C839515008683E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A946FD851C839515008683E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A946FD881C839515008683E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A946FD8A1C839515008683E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A946FD8D1C839515008683E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A946FD8F1C839515008683E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A946FD951C839563008683E2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A946FD9B1C83BB95008683E2 /* FAIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAIcon.swift; sourceTree = "<group>"; };
+		A946FD9D1C83BB9D008683E2 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		A946FD9F1C83BCEA008683E2 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		D90B3D9B4E40FA85E0DCD305 /* Pods-Font Awesome Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Font Awesome Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Font Awesome Swift/Pods-Font Awesome Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		E5BFEFDD25BAF4908F612869 /* Pods-Font Awesome Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Font Awesome Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Font Awesome Swift/Pods-Font Awesome Swift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A946FD7D1C839515008683E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1AD52B80C1502C96FF04862 /* Pods_Font_Awesome_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280D6849FBA9F502ABDE88EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D90B3D9B4E40FA85E0DCD305 /* Pods-Font Awesome Swift.debug.xcconfig */,
+				E5BFEFDD25BAF4908F612869 /* Pods-Font Awesome Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5624A949333477D371FCFB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3240CAE20CB2B11E1098BE3A /* Pods_Font_Awesome_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A946FD771C839515008683E2 = {
+			isa = PBXGroup;
+			children = (
+				A946FD951C839563008683E2 /* Podfile */,
+				A946FD821C839515008683E2 /* Font Awesome Swift */,
+				A946FD811C839515008683E2 /* Products */,
+				280D6849FBA9F502ABDE88EB /* Pods */,
+				A5624A949333477D371FCFB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A946FD811C839515008683E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A946FD801C839515008683E2 /* Font Awesome Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A946FD821C839515008683E2 /* Font Awesome Swift */ = {
+			isa = PBXGroup;
+			children = (
+				A946FD831C839515008683E2 /* AppDelegate.swift */,
+				A946FD851C839515008683E2 /* ViewController.swift */,
+				A946FD871C839515008683E2 /* Main.storyboard */,
+				A946FD9D1C83BB9D008683E2 /* FontAwesome.ttf */,
+				A946FD9B1C83BB95008683E2 /* FAIcon.swift */,
+				A946FD8A1C839515008683E2 /* Assets.xcassets */,
+				A946FD8C1C839515008683E2 /* LaunchScreen.storyboard */,
+				A946FD8F1C839515008683E2 /* Info.plist */,
+				A946FD9F1C83BCEA008683E2 /* MyPlayground.playground */,
+			);
+			path = "Font Awesome Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A946FD7F1C839515008683E2 /* Font Awesome Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A946FD921C839515008683E2 /* Build configuration list for PBXNativeTarget "Font Awesome Swift" */;
+			buildPhases = (
+				72DCC4D40E55220565326180 /* Check Pods Manifest.lock */,
+				A946FD7C1C839515008683E2 /* Sources */,
+				A946FD7D1C839515008683E2 /* Frameworks */,
+				A946FD7E1C839515008683E2 /* Resources */,
+				AF4B190340BC4019031E57AF /* Embed Pods Frameworks */,
+				E5BE6EB8DFC3AA00B0F77B69 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Font Awesome Swift";
+			productName = "Font Awesome Swift";
+			productReference = A946FD801C839515008683E2 /* Font Awesome Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A946FD781C839515008683E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jankz;
+				TargetAttributes = {
+					A946FD7F1C839515008683E2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PQWK6F4R9A;
+					};
+				};
+			};
+			buildConfigurationList = A946FD7B1C839515008683E2 /* Build configuration list for PBXProject "Font Awesome Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A946FD771C839515008683E2;
+			productRefGroup = A946FD811C839515008683E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A946FD7F1C839515008683E2 /* Font Awesome Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A946FD7E1C839515008683E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A946FD8E1C839515008683E2 /* LaunchScreen.storyboard in Resources */,
+				A946FD9E1C83BB9D008683E2 /* FontAwesome.ttf in Resources */,
+				A946FD8B1C839515008683E2 /* Assets.xcassets in Resources */,
+				A946FD961C839563008683E2 /* Podfile in Resources */,
+				A946FD891C839515008683E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72DCC4D40E55220565326180 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF4B190340BC4019031E57AF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Font Awesome Swift/Pods-Font Awesome Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5BE6EB8DFC3AA00B0F77B69 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Font Awesome Swift/Pods-Font Awesome Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A946FD7C1C839515008683E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A946FD9C1C83BB95008683E2 /* FAIcon.swift in Sources */,
+				A946FD861C839515008683E2 /* ViewController.swift in Sources */,
+				A946FD841C839515008683E2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A946FD871C839515008683E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A946FD881C839515008683E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A946FD8C1C839515008683E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A946FD8D1C839515008683E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A946FD901C839515008683E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A946FD911C839515008683E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A946FD931C839515008683E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90B3D9B4E40FA85E0DCD305 /* Pods-Font Awesome Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Font Awesome Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.jankz.com.Font-Awesome-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A946FD941C839515008683E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BFEFDD25BAF4908F612869 /* Pods-Font Awesome Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Font Awesome Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.jankz.com.Font-Awesome-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A946FD7B1C839515008683E2 /* Build configuration list for PBXProject "Font Awesome Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A946FD901C839515008683E2 /* Debug */,
+				A946FD911C839515008683E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A946FD921C839515008683E2 /* Build configuration list for PBXNativeTarget "Font Awesome Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A946FD931C839515008683E2 /* Debug */,
+				A946FD941C839515008683E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A946FD781C839515008683E2 /* Project object */;
+}

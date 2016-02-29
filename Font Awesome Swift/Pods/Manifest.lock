@@ -1,0 +1,15 @@
+PODS:
+  - Font-Awesome-Swift (1.4.5)
+  - LTMorphingLabel (0.1.1)
+
+DEPENDENCIES:
+  - Font-Awesome-Swift (~> 1.4.5)
+  - LTMorphingLabel (~> 0.1)
+
+SPEC CHECKSUMS:
+  Font-Awesome-Swift: 0af30357ab68dbcfa2d211254a5c11a158261112
+  LTMorphingLabel: dfc40f43a0dcf81867b1f29431f34e861a5f1b35
+
+PODFILE CHECKSUM: b01d71cdb03c81da4b52bb8c6184c68eaf066fa7
+
+COCOAPODS: 1.0.0.beta.4

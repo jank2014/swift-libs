@@ -1,0 +1,8 @@
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$CONFIGURATION_BUILD_DIR/Font-Awesome-Swift" "$CONFIGURATION_BUILD_DIR/LTMorphingLabel"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/Font-Awesome-Swift/Font_Awesome_Swift.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/LTMorphingLabel/LTMorphingLabel.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Font_Awesome_Swift" -framework "LTMorphingLabel"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_ROOT = ${SRCROOT}/Pods

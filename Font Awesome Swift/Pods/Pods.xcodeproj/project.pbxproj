@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00CACB5C2CC272638F8309A91FD43B0B /* Pods-Font Awesome Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F489BF1115126A80C0989C60AC9D5A /* Pods-Font Awesome Swift-dummy.m */; };
+		04913062FB19F572704D1F80F24D0F1E /* Fragment.png in Resources */ = {isa = PBXBuildFile; fileRef = 570CE20FD009ABDC75E7AE102BCA55C9 /* Fragment.png */; };
+		09655714894296138E974CBC74484E5C /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C6269F71C2BF7D16AF3901310C398 /* LTMorphingLabel.swift */; };
+		0B0B16FE44CBECB512D2FC308055C7BB /* LTMorphingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC42ECF0895E3235E85132737FCBE37 /* LTMorphingLabel-dummy.m */; };
+		10DA04EC085D11D23E0E3F0DBABE5114 /* LTMorphingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 40FD3CAE1ED86D81301068E88FCC0652 /* LTMorphingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1195289CD2283E049C44B2E548AF2815 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EC05B6CAD48439D0933167FD93BD5F /* UIKit.framework */; };
+		1CF8DFA896A6618005B677B8793DBF0E /* Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 396E2C4A078E2C36C0F0F42E3F2B0D6E /* Fire.png */; };
+		336C5FEC4B4BBF89B4DB514889FA78A7 /* Font-Awesome-Swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF4257326AC0DB87C329D6E0FDFE5CF1 /* Font-Awesome-Swift.bundle */; };
+		35D1068A16F7B860DBF2FF11F7E88197 /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D03D57A0EC4C258C8D4A341853904A1 /* LTMorphingEffect.swift */; };
+		36557B2E7D691978E46C1EF1FD4A91CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E615A6399FD33C7826967BCE09B9461 /* Foundation.framework */; };
+		401A7DAFE42E4A8D8B065ABB2B5028D1 /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E329BBA7EFD7DFAB4F3C58F1BFF141 /* LTMorphingLabel+Sparkle.swift */; };
+		422C7168824CA3A050060471BBAA8F8A /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A62518D12A11F1E72A2EA2CB41992F0 /* FontAwesome.ttf */; };
+		4F758AEFBA807C8BF1C2CDF453C6593F /* FAIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCADA3588C24E855E030D5F65F898F7F /* FAIcon.swift */; };
+		573B13ABBF79FA6ABDACA8F14750D83F /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = C128E49FBEE037FB89177CA2D5F13E25 /* Sparkle.png */; };
+		5F0F3AB11ACA57B68DDF05E13632083B /* Font-Awesome-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB9078E269D58F3CC244DBE64FB9F4 /* Font-Awesome-Swift-dummy.m */; };
+		74DEC2D3601595D8C6850C8FB7173158 /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBFD5F3B26183DD9340FCCA295CD465 /* LTCharacterLimbo.swift */; };
+		76563834F17F8D04B8C3DB575F17A3E0 /* Font-Awesome-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BDD6DF99375753EF738B969ABA1CFE /* Font-Awesome-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82CCC01A0501720443407C7842A2F8EE /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE6A3571DDE6DA83C721070C2452A2E /* LTMorphingLabel+Evaporate.swift */; };
+		85A2AA2BD22E68B378080EA17CA84362 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B3B1F9F01A80247162AE0FC0A91C337 /* CoreText.framework */; };
+		87A5677A6AE8315FC08C7AFDA06C5E85 /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0F0898BD1DF9BCE335078565FCC641 /* LTMorphingLabel+Anvil.swift */; };
+		94C184FAE53AE7FE2DAAF71250C88399 /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF09B81A52F16C5390035B6A201D19FC /* LTEmitterView.swift */; };
+		9CD2F676F12CF59997D469DC44040977 /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7DE8C200CD0C3C88608CF2BA323214 /* LTEasing.swift */; };
+		A65F752A942F41F86A27E442BA37B3B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E615A6399FD33C7826967BCE09B9461 /* Foundation.framework */; };
+		BA25E1C4EFB2B53764E95238C01FC541 /* LTMorphingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C19C1200AC50F698297CB26EB2616824 /* LTMorphingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFEF9CED3A5FD6F3F2EEE10238BD613F /* Pods-Font Awesome Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4287601A84F66C07EBA245639FB601 /* Pods-Font Awesome Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7F887AC21BC8C222303CE285C951090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E615A6399FD33C7826967BCE09B9461 /* Foundation.framework */; };
+		CFC6568F9625CFEDE89544D5E106EE56 /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D025E989380DBDFF8CED81F674B3E2 /* LTMorphingLabel+Fall.swift */; };
+		D40D84C336EB60A2349DA835277B3BB6 /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05ACC08750CE33D27F67F46259FFBDD /* LTMorphingLabel+Burn.swift */; };
+		D4BEFE9697D2C98014CEA515831D78EC /* NSString+LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583A7F70C1EA4F3CCFA969EC8440C64A /* NSString+LTMorphingLabel.swift */; };
+		D7AF1C498BACC7A8145392B6E3AC91FB /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E716DA9B7675D6E9CA6F5BD5C0FB5028 /* LTMorphingLabel+Pixelate.swift */; };
+		DF61DCA0253234290BDDE1A26FC68DDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EC05B6CAD48439D0933167FD93BD5F /* UIKit.framework */; };
+		E64E0DA42FF43A0CE84FC8E07BA9C2F4 /* Smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 23AD74166B0BB426DDA1C062C5A85DAE /* Smoke.png */; };
+		FD1AEB188348B57E76C4024E68F4BBAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8ADDFD142481E4DB166FE38381C8B2 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CF9B311C9CB591C44371E58DA244F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DCBD6C869DCC15AF62D43471CB4592C;
+			remoteInfo = LTMorphingLabel;
+		};
+		3FF10E2ECFED78CD1CDB25DDA69D1977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF2853D8E5FEAD2265A458B55D554528;
+			remoteInfo = "Font-Awesome-Swift";
+		};
+		7CA5F524F4D1CA6DD6C032B0F5DDE434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46DFF605EA91D4F2126F82E6AA6397A6;
+			remoteInfo = "Font-Awesome-Swift-Font-Awesome-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ABA01D536FC1DDDAB79005A69556BE0 /* LTMorphingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTMorphingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B3B1F9F01A80247162AE0FC0A91C337 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		0E1C6269F71C2BF7D16AF3901310C398 /* LTMorphingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingLabel.swift; path = LTMorphingLabel/LTMorphingLabel.swift; sourceTree = "<group>"; };
+		23AD74166B0BB426DDA1C062C5A85DAE /* Smoke.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Smoke.png; path = LTMorphingLabel/Particles/Smoke.png; sourceTree = "<group>"; };
+		28EC05B6CAD48439D0933167FD93BD5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		396E2C4A078E2C36C0F0F42E3F2B0D6E /* Fire.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Fire.png; path = LTMorphingLabel/Particles/Fire.png; sourceTree = "<group>"; };
+		3AFB9078E269D58F3CC244DBE64FB9F4 /* Font-Awesome-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Font-Awesome-Swift-dummy.m"; sourceTree = "<group>"; };
+		3D03D57A0EC4C258C8D4A341853904A1 /* LTMorphingEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingEffect.swift; path = LTMorphingLabel/LTMorphingEffect.swift; sourceTree = "<group>"; };
+		3E4287601A84F66C07EBA245639FB601 /* Pods-Font Awesome Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Font Awesome Swift-umbrella.h"; sourceTree = "<group>"; };
+		3E615A6399FD33C7826967BCE09B9461 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40FD3CAE1ED86D81301068E88FCC0652 /* LTMorphingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMorphingLabel.h; path = LTMorphingLabel/LTMorphingLabel.h; sourceTree = "<group>"; };
+		4589549E78E810A51F31203DE50AAE33 /* ResourceBundle-Font-Awesome-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Font-Awesome-Swift-Info.plist"; sourceTree = "<group>"; };
+		4A62518D12A11F1E72A2EA2CB41992F0 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.ttf; path = Source/FontAwesome.ttf; sourceTree = "<group>"; };
+		4E721AC30079BABE3DDA7CFA099984BC /* LTMorphingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LTMorphingLabel.modulemap; sourceTree = "<group>"; };
+		53D125E18DDC1359805205F08B391683 /* Pods-Font Awesome Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Font Awesome Swift.modulemap"; sourceTree = "<group>"; };
+		56EF3421CD65944D394EDBA7FF874543 /* Pods_Font_Awesome_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Font_Awesome_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		570CE20FD009ABDC75E7AE102BCA55C9 /* Fragment.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Fragment.png; path = LTMorphingLabel/Particles/Fragment.png; sourceTree = "<group>"; };
+		583A7F70C1EA4F3CCFA969EC8440C64A /* NSString+LTMorphingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+LTMorphingLabel.swift"; path = "LTMorphingLabel/NSString+LTMorphingLabel.swift"; sourceTree = "<group>"; };
+		5D8ADDFD142481E4DB166FE38381C8B2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		6E60A6906ED43207E26B95975EF85996 /* Font-Awesome-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Font-Awesome-Swift.modulemap"; sourceTree = "<group>"; };
+		6EE6A3571DDE6DA83C721070C2452A2E /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Evaporate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; };
+		7AC42ECF0895E3235E85132737FCBE37 /* LTMorphingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTMorphingLabel-dummy.m"; sourceTree = "<group>"; };
+		7DBA6FA4CF42A977CD03B7B17FD7CB33 /* LTMorphingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTMorphingLabel-prefix.pch"; sourceTree = "<group>"; };
+		92FBE0689DB5C9C321B17B75187EA1AB /* Font-Awesome-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Font-Awesome-Swift.xcconfig"; sourceTree = "<group>"; };
+		9895FE9ED7A974E7652E25AE0A66E154 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B47FEFC4E350ED3A117C6F1C50E1D47 /* LTMorphingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTMorphingLabel.xcconfig; sourceTree = "<group>"; };
+		A3F489BF1115126A80C0989C60AC9D5A /* Pods-Font Awesome Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Font Awesome Swift-dummy.m"; sourceTree = "<group>"; };
+		A84D3ACCB52D024E0480C6FEA30C4007 /* Font-Awesome-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Font-Awesome-Swift-prefix.pch"; sourceTree = "<group>"; };
+		AD7DE8C200CD0C3C88608CF2BA323214 /* LTEasing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEasing.swift; path = LTMorphingLabel/LTEasing.swift; sourceTree = "<group>"; };
+		B1B27135194FCBF86BAFC404E5AEB976 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43EF80BCBFF620D8B24891EBE765C62 /* Pods-Font Awesome Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Font Awesome Swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE0F0898BD1DF9BCE335078565FCC641 /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Anvil.swift"; path = "LTMorphingLabel/LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; };
+		C128E49FBEE037FB89177CA2D5F13E25 /* Sparkle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Sparkle.png; path = LTMorphingLabel/Particles/Sparkle.png; sourceTree = "<group>"; };
+		C19C1200AC50F698297CB26EB2616824 /* LTMorphingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTMorphingLabel-umbrella.h"; sourceTree = "<group>"; };
+		CBC68338810E884551E76AC2AAF6B3A6 /* Pods-Font Awesome Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Font Awesome Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		CF4257326AC0DB87C329D6E0FDFE5CF1 /* Font-Awesome-Swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Font-Awesome-Swift.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BDD6DF99375753EF738B969ABA1CFE /* Font-Awesome-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Font-Awesome-Swift-umbrella.h"; sourceTree = "<group>"; };
+		D956BD49790CBA142192692356A75EED /* Pods-Font Awesome Swift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Font Awesome Swift-frameworks.sh"; sourceTree = "<group>"; };
+		DE484025202907E2F6333D14EACF5B9F /* Pods-Font Awesome Swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Font Awesome Swift-resources.sh"; sourceTree = "<group>"; };
+		E1E329BBA7EFD7DFAB4F3C58F1BFF141 /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Sparkle.swift"; path = "LTMorphingLabel/LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
+		E60B5E6D7FCF7FDE5E2633BE5CD4E6C7 /* Pods-Font Awesome Swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Font Awesome Swift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E716DA9B7675D6E9CA6F5BD5C0FB5028 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Pixelate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
+		E85E2E059405870B344ABA3170DF8460 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4CE2046E9765B487ECF060F205C920 /* Font_Awesome_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Font_Awesome_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBFD5F3B26183DD9340FCCA295CD465 /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterLimbo.swift; path = LTMorphingLabel/LTCharacterLimbo.swift; sourceTree = "<group>"; };
+		F05ACC08750CE33D27F67F46259FFBDD /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Burn.swift"; path = "LTMorphingLabel/LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; };
+		F5D025E989380DBDFF8CED81F674B3E2 /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Fall.swift"; path = "LTMorphingLabel/LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; };
+		F9FDB2B67DA72BB8094ABBE586573A1E /* Pods-Font Awesome Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Font Awesome Swift.release.xcconfig"; sourceTree = "<group>"; };
+		FCADA3588C24E855E030D5F65F898F7F /* FAIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FAIcon.swift; path = Source/FAIcon.swift; sourceTree = "<group>"; };
+		FF09B81A52F16C5390035B6A201D19FC /* LTEmitterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEmitterView.swift; path = LTMorphingLabel/LTEmitterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06C8C1A5663C9C9C84E6EE1C700A21FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E4EA1B394794C6A87EC7CD3AFB870DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36557B2E7D691978E46C1EF1FD4A91CF /* Foundation.framework in Frameworks */,
+				FD1AEB188348B57E76C4024E68F4BBAA /* QuartzCore.framework in Frameworks */,
+				DF61DCA0253234290BDDE1A26FC68DDD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CD6EEB2F019FF4656DEABF654AFB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65F752A942F41F86A27E442BA37B3B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DB996ED33C0ACE6F474B5440A3CB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A2AA2BD22E68B378080EA17CA84362 /* CoreText.framework in Frameworks */,
+				C7F887AC21BC8C222303CE285C951090 /* Foundation.framework in Frameworks */,
+				1195289CD2283E049C44B2E548AF2815 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10B12E2688A752BE0B4F1E58B2AE94DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E85E2E059405870B344ABA3170DF8460 /* Info.plist */,
+				4E721AC30079BABE3DDA7CFA099984BC /* LTMorphingLabel.modulemap */,
+				9B47FEFC4E350ED3A117C6F1C50E1D47 /* LTMorphingLabel.xcconfig */,
+				7AC42ECF0895E3235E85132737FCBE37 /* LTMorphingLabel-dummy.m */,
+				7DBA6FA4CF42A977CD03B7B17FD7CB33 /* LTMorphingLabel-prefix.pch */,
+				C19C1200AC50F698297CB26EB2616824 /* LTMorphingLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LTMorphingLabel";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA05057162DEBA2A85F53C09512F78A1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24A48A2132D7383372837F51432EAD5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF4257326AC0DB87C329D6E0FDFE5CF1 /* Font-Awesome-Swift.bundle */,
+				EE4CE2046E9765B487ECF060F205C920 /* Font_Awesome_Swift.framework */,
+				0ABA01D536FC1DDDAB79005A69556BE0 /* LTMorphingLabel.framework */,
+				56EF3421CD65944D394EDBA7FF874543 /* Pods_Font_Awesome_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B4FB16836673E94FEFADD1E5CFD8B7 /* Pods-Font Awesome Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B1B27135194FCBF86BAFC404E5AEB976 /* Info.plist */,
+				53D125E18DDC1359805205F08B391683 /* Pods-Font Awesome Swift.modulemap */,
+				E60B5E6D7FCF7FDE5E2633BE5CD4E6C7 /* Pods-Font Awesome Swift-acknowledgements.markdown */,
+				B43EF80BCBFF620D8B24891EBE765C62 /* Pods-Font Awesome Swift-acknowledgements.plist */,
+				A3F489BF1115126A80C0989C60AC9D5A /* Pods-Font Awesome Swift-dummy.m */,
+				D956BD49790CBA142192692356A75EED /* Pods-Font Awesome Swift-frameworks.sh */,
+				DE484025202907E2F6333D14EACF5B9F /* Pods-Font Awesome Swift-resources.sh */,
+				3E4287601A84F66C07EBA245639FB601 /* Pods-Font Awesome Swift-umbrella.h */,
+				CBC68338810E884551E76AC2AAF6B3A6 /* Pods-Font Awesome Swift.debug.xcconfig */,
+				F9FDB2B67DA72BB8094ABBE586573A1E /* Pods-Font Awesome Swift.release.xcconfig */,
+			);
+			name = "Pods-Font Awesome Swift";
+			path = "Target Support Files/Pods-Font Awesome Swift";
+			sourceTree = "<group>";
+		};
+		6CB61556C8D51BCAFA9BC70F992B6091 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A62518D12A11F1E72A2EA2CB41992F0 /* FontAwesome.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6D271C23494B1288BB4B72774B0EA06D /* LTMorphingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				EEBFD5F3B26183DD9340FCCA295CD465 /* LTCharacterLimbo.swift */,
+				AD7DE8C200CD0C3C88608CF2BA323214 /* LTEasing.swift */,
+				FF09B81A52F16C5390035B6A201D19FC /* LTEmitterView.swift */,
+				3D03D57A0EC4C258C8D4A341853904A1 /* LTMorphingEffect.swift */,
+				40FD3CAE1ED86D81301068E88FCC0652 /* LTMorphingLabel.h */,
+				0E1C6269F71C2BF7D16AF3901310C398 /* LTMorphingLabel.swift */,
+				BE0F0898BD1DF9BCE335078565FCC641 /* LTMorphingLabel+Anvil.swift */,
+				F05ACC08750CE33D27F67F46259FFBDD /* LTMorphingLabel+Burn.swift */,
+				6EE6A3571DDE6DA83C721070C2452A2E /* LTMorphingLabel+Evaporate.swift */,
+				F5D025E989380DBDFF8CED81F674B3E2 /* LTMorphingLabel+Fall.swift */,
+				E716DA9B7675D6E9CA6F5BD5C0FB5028 /* LTMorphingLabel+Pixelate.swift */,
+				E1E329BBA7EFD7DFAB4F3C58F1BFF141 /* LTMorphingLabel+Sparkle.swift */,
+				583A7F70C1EA4F3CCFA969EC8440C64A /* NSString+LTMorphingLabel.swift */,
+				E0E488D7F5A7A9C551A1CAAFD1551C54 /* Resources */,
+				10B12E2688A752BE0B4F1E58B2AE94DC /* Support Files */,
+			);
+			path = LTMorphingLabel;
+			sourceTree = "<group>";
+		};
+		7AEA4A851952D36E71B3770DFEDBA66B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E60A6906ED43207E26B95975EF85996 /* Font-Awesome-Swift.modulemap */,
+				92FBE0689DB5C9C321B17B75187EA1AB /* Font-Awesome-Swift.xcconfig */,
+				3AFB9078E269D58F3CC244DBE64FB9F4 /* Font-Awesome-Swift-dummy.m */,
+				A84D3ACCB52D024E0480C6FEA30C4007 /* Font-Awesome-Swift-prefix.pch */,
+				D5BDD6DF99375753EF738B969ABA1CFE /* Font-Awesome-Swift-umbrella.h */,
+				9895FE9ED7A974E7652E25AE0A66E154 /* Info.plist */,
+				4589549E78E810A51F31203DE50AAE33 /* ResourceBundle-Font-Awesome-Swift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Font-Awesome-Swift";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				B17DCFF87829B9867CF43B214E5C963E /* Pods */,
+				24A48A2132D7383372837F51432EAD5E /* Products */,
+				D24CBBB57FF3A2BFF480CEC67D57B7F0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9B964B5923745C06C9E9E224F86396FE /* Font-Awesome-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				FCADA3588C24E855E030D5F65F898F7F /* FAIcon.swift */,
+				6CB61556C8D51BCAFA9BC70F992B6091 /* Resources */,
+				7AEA4A851952D36E71B3770DFEDBA66B /* Support Files */,
+			);
+			path = "Font-Awesome-Swift";
+			sourceTree = "<group>";
+		};
+		B17DCFF87829B9867CF43B214E5C963E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B964B5923745C06C9E9E224F86396FE /* Font-Awesome-Swift */,
+				6D271C23494B1288BB4B72774B0EA06D /* LTMorphingLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA05057162DEBA2A85F53C09512F78A1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0B3B1F9F01A80247162AE0FC0A91C337 /* CoreText.framework */,
+				3E615A6399FD33C7826967BCE09B9461 /* Foundation.framework */,
+				5D8ADDFD142481E4DB166FE38381C8B2 /* QuartzCore.framework */,
+				28EC05B6CAD48439D0933167FD93BD5F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D24CBBB57FF3A2BFF480CEC67D57B7F0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58B4FB16836673E94FEFADD1E5CFD8B7 /* Pods-Font Awesome Swift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E0E488D7F5A7A9C551A1CAAFD1551C54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				396E2C4A078E2C36C0F0F42E3F2B0D6E /* Fire.png */,
+				570CE20FD009ABDC75E7AE102BCA55C9 /* Fragment.png */,
+				23AD74166B0BB426DDA1C062C5A85DAE /* Smoke.png */,
+				C128E49FBEE037FB89177CA2D5F13E25 /* Sparkle.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F80F14E9180F9009FD434ED50439AC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEF9CED3A5FD6F3F2EEE10238BD613F /* Pods-Font Awesome Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D1926C75235190BA2B9B1C7E872D15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA25E1C4EFB2B53764E95238C01FC541 /* LTMorphingLabel-umbrella.h in Headers */,
+				10DA04EC085D11D23E0E3F0DBABE5114 /* LTMorphingLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C871C7ABAAA44D40F55E6046BDDBF2F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76563834F17F8D04B8C3DB575F17A3E0 /* Font-Awesome-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DCBD6C869DCC15AF62D43471CB4592C /* LTMorphingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6BFD0F561BD7DC1612C7BF97AAE6BC /* Build configuration list for PBXNativeTarget "LTMorphingLabel" */;
+			buildPhases = (
+				EC8FE24E635DC3E29FDF20CFAD47AE8F /* Sources */,
+				0E4EA1B394794C6A87EC7CD3AFB870DF /* Frameworks */,
+				B5D1926C75235190BA2B9B1C7E872D15 /* Headers */,
+				F9DBA014C64C012FFED946DB4F6F8A87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTMorphingLabel;
+			productName = LTMorphingLabel;
+			productReference = 0ABA01D536FC1DDDAB79005A69556BE0 /* LTMorphingLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46DFF605EA91D4F2126F82E6AA6397A6 /* Font-Awesome-Swift-Font-Awesome-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618E3E34CFF48D1B243DB7D8DC353CC8 /* Build configuration list for PBXNativeTarget "Font-Awesome-Swift-Font-Awesome-Swift" */;
+			buildPhases = (
+				046E69A43FFE4D595CA3D30D6111E649 /* Sources */,
+				06C8C1A5663C9C9C84E6EE1C700A21FD /* Frameworks */,
+				32EA4A3FA3E9EC7C3E6224ADFFC3F901 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Font-Awesome-Swift-Font-Awesome-Swift";
+			productName = "Font-Awesome-Swift-Font-Awesome-Swift";
+			productReference = CF4257326AC0DB87C329D6E0FDFE5CF1 /* Font-Awesome-Swift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A451FE70CD4B7A2AFFC068ACA1CE7F75 /* Pods-Font Awesome Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8383BD2D874F384A3219A08F060E4776 /* Build configuration list for PBXNativeTarget "Pods-Font Awesome Swift" */;
+			buildPhases = (
+				B75099CB6908B0D8F5197FF9FAF94E04 /* Sources */,
+				28CD6EEB2F019FF4656DEABF654AFB8D /* Frameworks */,
+				1F80F14E9180F9009FD434ED50439AC6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAE8675CD20BC13011E3BD56D2B357F /* PBXTargetDependency */,
+				C30037640CABC40D9C912E90CADE5D02 /* PBXTargetDependency */,
+			);
+			name = "Pods-Font Awesome Swift";
+			productName = "Pods-Font Awesome Swift";
+			productReference = 56EF3421CD65944D394EDBA7FF874543 /* Pods_Font_Awesome_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF2853D8E5FEAD2265A458B55D554528 /* Font-Awesome-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F93227DD73B68C88637ABA6B32159A /* Build configuration list for PBXNativeTarget "Font-Awesome-Swift" */;
+			buildPhases = (
+				3EC23B5C4C2C89426AAB6FD00550AF2E /* Sources */,
+				C4DB996ED33C0ACE6F474B5440A3CB84 /* Frameworks */,
+				DCD262A481207F4BBC11A9A7E877B432 /* Resources */,
+				C871C7ABAAA44D40F55E6046BDDBF2F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				793DE912A6196484797E9213D02211E9 /* PBXTargetDependency */,
+			);
+			name = "Font-Awesome-Swift";
+			productName = "Font-Awesome-Swift";
+			productReference = EE4CE2046E9765B487ECF060F205C920 /* Font_Awesome_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 24A48A2132D7383372837F51432EAD5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF2853D8E5FEAD2265A458B55D554528 /* Font-Awesome-Swift */,
+				46DFF605EA91D4F2126F82E6AA6397A6 /* Font-Awesome-Swift-Font-Awesome-Swift */,
+				0DCBD6C869DCC15AF62D43471CB4592C /* LTMorphingLabel */,
+				A451FE70CD4B7A2AFFC068ACA1CE7F75 /* Pods-Font Awesome Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32EA4A3FA3E9EC7C3E6224ADFFC3F901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422C7168824CA3A050060471BBAA8F8A /* FontAwesome.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD262A481207F4BBC11A9A7E877B432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336C5FEC4B4BBF89B4DB514889FA78A7 /* Font-Awesome-Swift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DBA014C64C012FFED946DB4F6F8A87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF8DFA896A6618005B677B8793DBF0E /* Fire.png in Resources */,
+				04913062FB19F572704D1F80F24D0F1E /* Fragment.png in Resources */,
+				E64E0DA42FF43A0CE84FC8E07BA9C2F4 /* Smoke.png in Resources */,
+				573B13ABBF79FA6ABDACA8F14750D83F /* Sparkle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046E69A43FFE4D595CA3D30D6111E649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC23B5C4C2C89426AAB6FD00550AF2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F758AEFBA807C8BF1C2CDF453C6593F /* FAIcon.swift in Sources */,
+				5F0F3AB11ACA57B68DDF05E13632083B /* Font-Awesome-Swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75099CB6908B0D8F5197FF9FAF94E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CACB5C2CC272638F8309A91FD43B0B /* Pods-Font Awesome Swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8FE24E635DC3E29FDF20CFAD47AE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DEC2D3601595D8C6850C8FB7173158 /* LTCharacterLimbo.swift in Sources */,
+				9CD2F676F12CF59997D469DC44040977 /* LTEasing.swift in Sources */,
+				94C184FAE53AE7FE2DAAF71250C88399 /* LTEmitterView.swift in Sources */,
+				35D1068A16F7B860DBF2FF11F7E88197 /* LTMorphingEffect.swift in Sources */,
+				87A5677A6AE8315FC08C7AFDA06C5E85 /* LTMorphingLabel+Anvil.swift in Sources */,
+				D40D84C336EB60A2349DA835277B3BB6 /* LTMorphingLabel+Burn.swift in Sources */,
+				82CCC01A0501720443407C7842A2F8EE /* LTMorphingLabel+Evaporate.swift in Sources */,
+				CFC6568F9625CFEDE89544D5E106EE56 /* LTMorphingLabel+Fall.swift in Sources */,
+				D7AF1C498BACC7A8145392B6E3AC91FB /* LTMorphingLabel+Pixelate.swift in Sources */,
+				401A7DAFE42E4A8D8B065ABB2B5028D1 /* LTMorphingLabel+Sparkle.swift in Sources */,
+				0B0B16FE44CBECB512D2FC308055C7BB /* LTMorphingLabel-dummy.m in Sources */,
+				09655714894296138E974CBC74484E5C /* LTMorphingLabel.swift in Sources */,
+				D4BEFE9697D2C98014CEA515831D78EC /* NSString+LTMorphingLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		793DE912A6196484797E9213D02211E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Font-Awesome-Swift-Font-Awesome-Swift";
+			target = 46DFF605EA91D4F2126F82E6AA6397A6 /* Font-Awesome-Swift-Font-Awesome-Swift */;
+			targetProxy = 7CA5F524F4D1CA6DD6C032B0F5DDE434 /* PBXContainerItemProxy */;
+		};
+		C30037640CABC40D9C912E90CADE5D02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LTMorphingLabel;
+			target = 0DCBD6C869DCC15AF62D43471CB4592C /* LTMorphingLabel */;
+			targetProxy = 0CF9B311C9CB591C44371E58DA244F17 /* PBXContainerItemProxy */;
+		};
+		EFAE8675CD20BC13011E3BD56D2B357F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Font-Awesome-Swift";
+			target = DF2853D8E5FEAD2265A458B55D554528 /* Font-Awesome-Swift */;
+			targetProxy = 3FF10E2ECFED78CD1CDB25DDA69D1977 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0822A192B2DAFEE3F528F5683A7C22E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B47FEFC4E350ED3A117C6F1C50E1D47 /* LTMorphingLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LTMorphingLabel/LTMorphingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTMorphingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LTMorphingLabel/LTMorphingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LTMorphingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66B0A5E18667A05D8BF4E073FAB0AEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FBE0689DB5C9C321B17B75187EA1AB /* Font-Awesome-Swift.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Font-Awesome-Swift/ResourceBundle-Font-Awesome-Swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "Font-Awesome-Swift";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		70ED7BA863FEDDFCA6088A0E04B5409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86563E610FFF73C231BC4F1609C32558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FBE0689DB5C9C321B17B75187EA1AB /* Font-Awesome-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Font-Awesome-Swift/Font-Awesome-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Font-Awesome-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Font-Awesome-Swift/Font-Awesome-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Font_Awesome_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FE9E872EB13732641B82A9C8BBC8BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FBE0689DB5C9C321B17B75187EA1AB /* Font-Awesome-Swift.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Font-Awesome-Swift/ResourceBundle-Font-Awesome-Swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "Font-Awesome-Swift";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BE89C1AF232E5FB0E439BE954B3E61FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC68338810E884551E76AC2AAF6B3A6 /* Pods-Font Awesome Swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Font Awesome Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Font Awesome Swift/Pods-Font Awesome Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Font_Awesome_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCCCA28BB02323DAE9641055AC1274EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B47FEFC4E350ED3A117C6F1C50E1D47 /* LTMorphingLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LTMorphingLabel/LTMorphingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTMorphingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LTMorphingLabel/LTMorphingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LTMorphingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1B685D9073CDF53C548503CD4FD8B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F1F07E6CAA72EEFF5E9CB6331B7554F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9FDB2B67DA72BB8094ABBE586573A1E /* Pods-Font Awesome Swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Font Awesome Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Font Awesome Swift/Pods-Font Awesome Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Font_Awesome_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1F1D440B378A86F791A155E682534D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FBE0689DB5C9C321B17B75187EA1AB /* Font-Awesome-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Font-Awesome-Swift/Font-Awesome-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Font-Awesome-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Font-Awesome-Swift/Font-Awesome-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Font_Awesome_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B685D9073CDF53C548503CD4FD8B53 /* Debug */,
+				70ED7BA863FEDDFCA6088A0E04B5409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F93227DD73B68C88637ABA6B32159A /* Build configuration list for PBXNativeTarget "Font-Awesome-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86563E610FFF73C231BC4F1609C32558 /* Debug */,
+				F1F1D440B378A86F791A155E682534D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618E3E34CFF48D1B243DB7D8DC353CC8 /* Build configuration list for PBXNativeTarget "Font-Awesome-Swift-Font-Awesome-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE9E872EB13732641B82A9C8BBC8BAD /* Debug */,
+				66B0A5E18667A05D8BF4E073FAB0AEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8383BD2D874F384A3219A08F060E4776 /* Build configuration list for PBXNativeTarget "Pods-Font Awesome Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE89C1AF232E5FB0E439BE954B3E61FF /* Debug */,
+				F1F07E6CAA72EEFF5E9CB6331B7554F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD6BFD0F561BD7DC1612C7BF97AAE6BC /* Build configuration list for PBXNativeTarget "LTMorphingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0822A192B2DAFEE3F528F5683A7C22E8 /* Debug */,
+				CCCCA28BB02323DAE9641055AC1274EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
